@@ -7,13 +7,17 @@ box-sizing: border-box;
 }
 * {
 margin: 0;
+}
+html
+{
+    height: 100%;
 }       
 body {
 line-height: 1.5;
 -webkit-font-smoothing: antialiased;
-height: 100vh;
-display: flex;
-font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+/* height: 100vh; */
+/* display: flex; */
+/* font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif; */
 font-size: 16px;
 }
 img, picture, video, canvas, svg {
@@ -25,4 +29,31 @@ font: inherit;
 }
 p, h1, h2, h3, h4, h5, h6 {
 overflow-wrap: break-word;
+}
+
+/* My CSS */
+
+a
+{
+    text-decoration: none;
+}
+.container
+{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+}
+.sidebar
+{
+    background-color: lightblue;
+    grid-row: 1/-1;
+}
+.header
+{
+    background-color: lightcoral;
+}
+.main
+{
+    background-color: lightgreen;
 }
