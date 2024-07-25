@@ -10,13 +10,13 @@ margin: 0;
 }
 html
 {
+    /* height: 100vh; */
     height: 100%;
 }       
 body {
 line-height: 1.5;
 -webkit-font-smoothing: antialiased;
-/* height: 100vh; */
-/* display: flex; */
+height: 100%;
 /* font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif; */
 font-size: 16px;
 }
@@ -42,7 +42,7 @@ a
     display: grid;
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 5fr;
-    /* height: 100vh; */
+    /* height: 100%; */
 }
 .sidebar
 {
@@ -88,9 +88,19 @@ a
     gap: 25px;
     padding: 25px;
 }
-.announcements
+.announcements,.trending
 {
-    background-color: maroon;
+    background-color: lightslategray;
 }
+.trending-container
+{
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr;
+    gap: 25px;
+    padding: 25px;
+}
+
 
 
