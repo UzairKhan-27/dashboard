@@ -40,9 +40,9 @@ a
 .container
 {
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 5fr;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .sidebar
 {
@@ -55,5 +55,12 @@ a
 }
 .main
 {
+    display: grid;
     background-color: lightgreen;
+
+    grid-template-columns: 5fr 1fr;
+}
+.trending-container
+{
+    grid-column: 2/-1;
 }
