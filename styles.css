@@ -78,6 +78,7 @@ a
 .projects
 {
     background-color: peru;
+    height: 250px;
 }
 .announcement-container
 {
@@ -91,6 +92,7 @@ a
 .announcements,.trending
 {
     background-color: lightslategray;
+    max-width: 500px;
 }
 .trending-container
 {
