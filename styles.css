@@ -57,16 +57,12 @@ a
 {
     display: grid;
     background-color: lightgreen;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 .project-heading
 {
     grid-row: 1;
     grid-column: 1/-1;
-}
-.trending-container
-{
-    grid-column: 2/-1;
 }
 .project-container
 {
@@ -83,3 +79,18 @@ a
 {
     background-color: peru;
 }
+.announcement-container
+{
+    background-color: plum;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr;
+    gap: 25px;
+    padding: 25px;
+}
+.announcements
+{
+    background-color: maroon;
+}
+
+
