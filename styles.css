@@ -299,3 +299,15 @@ body
 {
     font-family: text-font;
 }
+.sticky-sidebar
+{
+    position: sticky;
+    top: 35px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+}
+.sidebar-heading
+{
+    grid-row: 1/5;
+}
