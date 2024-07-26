@@ -167,6 +167,10 @@ button:hover
     border-radius:10px;
     border: 5px solid #352f44;;
 }
+.projects:hover,.announcements:hover,.trending:hover
+{
+    transform: scale(1.1);
+}
 .announcement-container
 {
     display: grid;
@@ -188,6 +192,22 @@ button:hover
     /* gap: 25px; */
     padding: 25px;
     grid-row: 2/5;
+}
+.trending-heading,.project-heading,.announcement-heading
+{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.project-title,.announcements-title
+{
+    font-size: 1.3rem;
+    color:#2a2438;
+    font-weight: bolder;
+}
+.trending-heading
+{
+    margin-bottom: -30px;
 }
 .announcements
 {
