@@ -77,6 +77,7 @@ button:hover
     grid-template-columns: 2fr 1.5fr;
     grid-template-rows: 1fr 1fr;
     background-color: #dbd8e3;
+    /* font-size: 1.1rem; */
 }
 .header-top-right
 {
@@ -85,6 +86,8 @@ button:hover
     justify-self: center;
     align-self: center;
     padding: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 .header-top-left
 {
@@ -123,6 +126,11 @@ button:hover
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.header-left
+{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .header-left img
 {
