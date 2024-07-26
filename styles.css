@@ -35,18 +35,28 @@ overflow-wrap: break-word;
 
 a,a:visited
 {
-    color: black;
+    color:white;
     text-decoration: none;
+}
+svg
+{
+    fill: black;
+}
+.sidebar svg
+{
+    fill: white;
 }
 button
 {
     padding: 5px 24px;
     border-radius: 28px;
-    background-color: skyblue   ;
+    background-color:#5c5470;
+    color: white;
+    font-weight: bold;
 }
 button:hover
 {
-    background-color: lightseagreen;
+    background-color: #2a2438; ;
 }
 
 
@@ -55,19 +65,18 @@ button:hover
     display: grid;
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 5fr;
-    /* height: 100%; */
 }
 .sidebar
 {
-    background-color: lightblue;
-    grid-row: 1/-1;
+    background-color:  #2a2438;
+    grid-row: 1/-1;    
 }
 .header
 {
     display: grid;
     grid-template-columns: 2fr 1.5fr;
     grid-template-rows: 1fr 1fr;
-    background-color: lightcoral;
+    background-color: #dbd8e3;
 }
 .header-top-right
 {
@@ -85,7 +94,7 @@ button:hover
 .header-top-left input
 {
     width:90%;
-    background-color:  wheat;
+    background-color:  transparent;
 }
 .header-top-left svg
 {
@@ -133,7 +142,7 @@ button:hover
 .main
 {
     display: grid;
-    background-color: lightgreen;
+    background-color: #5c5470;
     grid-template-columns: 2fr 1fr;
 }
 .project-heading
@@ -144,7 +153,6 @@ button:hover
 .project-container
 {
     padding: 25px;
-    background-color: aquamarine;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-template-rows:0.1fr ;  
@@ -153,29 +161,31 @@ button:hover
 }
 .projects
 {
-    background-color: peru;
+    background-color: #dbd8e3;
     max-height: 350px;
     padding: 25px;
+    border-radius:10px;
+    border: 5px solid #352f44;;
 }
 .announcement-container
 {
-    background-color: plum;
     display: grid;
-    gap: 25px;
+    /* gap: 25px; */
     padding: 25px;
     /* grid-template-rows:0.1fr ;   */
 
 }
 .announcements,.trending
 {
-    background-color: lightslategray;
+    background-color: #dbd8e3;
     max-width: 500px;
+    border: dotted black;
+    border-radius:10px ;
 }
 .trending-container
 {
-    background-color: burlywood;
     display: grid;
-    gap: 25px;
+    /* gap: 25px; */
     padding: 25px;
     grid-row: 2/5;
 }
@@ -212,11 +222,11 @@ button:hover
     transform: scale(1.15);
     svg
     {
-        fill: red;
+        fill: lightpink;
     }
     a
     {
-        color: red;
+        color: lightpink;
     }
 }
 .projects-icons
