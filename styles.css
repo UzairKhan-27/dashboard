@@ -103,5 +103,13 @@ a
 {
     padding: 25px;
 }
+.sidebar
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px repeat(9,50px);
+    padding: 25px;
+
+}
 
 
