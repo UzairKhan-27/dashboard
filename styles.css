@@ -2,6 +2,16 @@
 Josh's Custom CSS Reset
 https://www.joshwcomeau.com/css/custom-css-reset/
 */
+@font-face
+{
+    font-family: heading-font;
+    src:url(./fonts/Abril_Fatface/AbrilFatface-Regular.ttf)
+}
+@font-face
+{
+    font-family: text-font;
+    src:url(fonts/Lato/Lato-Regular.ttf);
+}
 *, *::before, *::after {
 box-sizing: border-box;
 }
@@ -18,8 +28,14 @@ body {
 line-height: 1.5;
 -webkit-font-smoothing: antialiased;
 height: 100%;
-/* font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif; */
+font-family: text-font;
 font-size: 16px;
+}
+.header-top-right,.header-top-left,.header-left,.project-title,.project-heading,
+    .announcement-heading,.trending-heading,.announcements-title
+{
+    font-family: 'Times New Roman', Times, serif;   
+    font-weight: bolder;
 }
 img, picture, video, canvas, svg {
 display: block;
@@ -193,13 +209,12 @@ button:hover
 {
     color: white;
     font-size: 2rem;
-    font-weight: bold;
 }
 .project-title,.announcements-title
 {
     font-size: 1.3rem;
     color:#2a2438;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .trending-heading
 {
@@ -219,7 +234,6 @@ button:hover
     grid-row: 1/-1;   
 
 }
-
 .sidebar svg
 {
     width: 30px;
@@ -271,4 +285,17 @@ button:hover
 .trending p,.header p
 {
     display: inline-block;
+}
+svg.main-icon
+{
+    height: 40px;
+    width: 40px;
+}
+.sidebar-heading
+{
+    font-size: 1.3rem;
+}
+body
+{
+    font-family: text-font;
 }
