@@ -12,6 +12,7 @@ html
 {
     /* height: 100vh; */
     height: 100%;
+    font-size:16px;
 }       
 body {
 line-height: 1.5;
@@ -38,14 +39,7 @@ a,a:visited
     color:white;
     text-decoration: none;
 }
-svg
-{
-    fill: black;
-}
-.sidebar svg
-{
-    fill: white;
-}
+
 button
 {
     padding: 5px 24px;
@@ -53,6 +47,7 @@ button
     background-color:#5c5470;
     color: white;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 button:hover
 {
@@ -65,11 +60,6 @@ button:hover
     display: grid;
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 5fr;
-}
-.sidebar
-{
-    background-color:  #2a2438;
-    grid-row: 1/-1;    
 }
 .header
 {
@@ -127,11 +117,7 @@ button:hover
     justify-content: space-evenly;
     align-items: center;
 }
-.header-left
-{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
+
 .header-left img
 {
     width: 100px;
@@ -146,6 +132,8 @@ button:hover
     grid-row: 2;
     margin: 10px;
     align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .main
 {
@@ -227,16 +215,11 @@ button:hover
     grid-template-columns: 1fr;
     grid-template-rows: 100px repeat(9,50px);
     padding: 25px;
+    background-color:  #2a2438;
+    grid-row: 1/-1;   
 
 }
-.sidebar img
-{
-    /* background-color: palegreen; */
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-    display: inline-block;
-}
+
 .sidebar svg
 {
     width: 30px;
@@ -244,6 +227,7 @@ button:hover
     margin-right: 25px;
     vertical-align: middle;
     display: inline-block;
+    fill: white;
 }
 .sidebar-text:hover,.sidebar-heading:hover,.header-left img:hover
 {
