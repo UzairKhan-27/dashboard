@@ -76,6 +76,7 @@ button:hover
     display: grid;
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 5fr;
+    height: 100vh;
 }
 .header
 {
@@ -215,10 +216,6 @@ button:hover
     font-size: 1.3rem;
     color:#2a2438;
     font-weight: bold;
-}
-.trending-heading
-{
-    margin-bottom: -30px;
 }
 .announcements
 {
