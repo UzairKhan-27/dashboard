@@ -111,5 +111,25 @@ a
     padding: 25px;
 
 }
+.sidebar img
+{
+    /* background-color: palegreen; */
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.sidebar svg
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    fill: black;
 
-
+}
+.sidebar-text:hover,.sidebar-heading:hover
+{
+    transform: scale(1.15);
+}
