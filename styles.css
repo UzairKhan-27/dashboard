@@ -126,10 +126,27 @@ a
     margin-right: 25px;
     vertical-align: middle;
     display: inline-block;
-    fill: black;
-
 }
 .sidebar-text:hover,.sidebar-heading:hover
 {
     transform: scale(1.15);
+}
+.projects-icons
+{
+    text-align: right;
+    justify-content: flex-end;
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+.projects-icons svg
+{
+    width: 25px;
+    height: 25px;
+    vertical-align:middle;
+    display: inline-block;
+}
+.projects-icons svg:hover
+{
+    transform: scale(1.3);
 }
